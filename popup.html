@@ -1,0 +1,63 @@
+<!-- Adapt as you please! But do not remove this header
+// Creative-Commons Attribution License (http://creativecommons.org/licenses/by/3.0/)
+// Developer: Anirudh R (http://anirudhr.com/about.php) -->
+<!doctype html>
+<html>
+  <head>
+    <title>RandomTrax</title>
+	<link href='http://fonts.googleapis.com/css?family=Quando|Cabin' rel='stylesheet' type='text/css' />
+	<link type="text/css" rel="stylesheet" href="popup.css" media="screen" />
+    <script src="popup.js"></script>
+	
+  </head>
+  <body class="inverted">
+  			
+  <div id="header"><h2>RandomTrax</h2></div>
+	
+<div id="mainwrap">
+<div id="cardstyle">
+	<div id="content">
+			<ul>
+					<li id="bio" class="section">
+				    <h5><div style="text-align:center" id="status">Loading...</div></h5>
+				    <h5><span id="playlist"></span></h5>
+				    <h5><span id="state"></span></h5>
+					<br />
+				<div>
+				<span style="font:12px Cabin;float:left;">Genre&nbsp;&nbsp;</span>
+					<!-- The second value will be selected initially -->
+						<select name="genre" id="genre" class="genre">
+						  <option value="Trance">Trance</option>
+						  <option value="African">African</option> 
+						  <option value="Asian">Asian</option>
+						  <option value="Blues">Blues</option>
+						  <option value="Country">Country</option>
+						  <option value="Electronic">Electronic</option>
+						  <option value="Modern folk">Modern folk</option>
+						  <option value="Hip Hop">Hip Hop</option>
+						  <option value="Jazz">Jazz</option>
+						  <option value="Pop">Pop</option>
+						  <option value="Rock">Rock</option>
+						  <option value="Ska">Ska</option>
+						</select>
+						
+							<input type="text" id="search" class="search"/>
+							<span style="font:12px Cabin;float:right;">Search&nbsp;&nbsp;</span>
+					</div>
+				<div class="iconmenu" id="iconmenu">
+				<img src="prev.png" alt="Previous" id="prev"/>
+				<img src="play.png" alt="Play/Pause" id="play"/>
+				<img src="next.png" alt="Next" id="next"/>
+				</div>
+				</li>
+			</ul>
+	</div>
+</div></div>
+<div id="tips" class="tips"></div>
+<div style="text-align:center"><img src="shutdown.png" alt="Shutdown" id="shutdown"/></div>
+    <div style="text-align:center">Turn Music Player On/Off</div>
+  <!-- END of Region -->
+
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+/* Adapt as you please! But do not remove this header
+// Creative-Commons Attribution License (http://creativecommons.org/licenses/by/3.0/)
+Developer: Anirudh R (http://anirudhr.com/about.php) */
+
+*{border:0;font:inherit;font-size:100%;margin:0;padding:0;vertical-align:baseline;}
+body{/*background-color:#fafafa;*/color:#646464;font:12px/16px Cabin, Helvetica, Arial, sans-serif;}
+ol,ul{list-style:none;list-style-image:none;list-style-position:outside;list-style-type:none;}
+a img{border:none;}
+a{color:#000;text-decoration:none;}
+a:hover,a:focus{color:#666;text-decoration:underline;}
+p{font-family:Cabin, sans-serif;padding:0 2px 10px;}
+h2{color:#333;font:32px Quando, Cabin, sans-serif;padding:6px 0 0px;text-align:center}
+.left{float:left;margin:0 15px 5px 0;}
+.right{float:right;margin:0 0 5px 15px;}
+
+
+h5{font:20px Cabin;}
+
+#mainwrap{margin:0 auto;overflow:hidden;position:relative;width:340px;}
+#cardstyle{/*background-color:#EBEBEB;*/border:1px solid #d4d4d4;height:150px;margin:10px auto 20px;overflow:hidden;padding:6px;position:relative;width:300px;}
+#content{/*background-color:#8a0a0a;*/height:150px;overflow:hidden;position:relative;width:300px;}
+#pagecontainer{position:relative;width:9999px;}
+.section{float:left;height:164px;margin-right:50px;padding:0 10px 25px;position:relative;width:280px;}
+
+#menuwrap{margin:0 auto;}
+.iconmenu{bottom:50px;clear:both;overflow:hidden;padding:8px 0 6px 55px;position:absolute;text-align:center;width:auto;z-index:100;}
+.iconmenu img{padding:0 10px;}
+.iconmenu img a.selected,.iconmenu li a:hover,.iconmenu li a:focus{opacity:1;}
+/*
+#bio img{border:3px solid #fff;box-shadow:1px 1px 0px #aaa;}
+ If you want to add styles for the custom page, you can do it by using the ID #custom, like this:
+#custom h2{color:blue;}
+#custom p{text-align:center;}
+*/
+#status{
+ white-space:nowrap;
+ overflow:hidden;
+}
+
+#playlist{
+display:none;
+}
+body.inverted {/*background-color:#0a0a0a;color:#e0e0e0;background-color:#EBEBEB;*/background: url(./farmer.png);}
+body.inverted #cardstyle {/*background-color:#101010;*/border:1px solid #2a2a2a;}
+body.inverted #content {/*background-color:#EBEBEB;*/}
+body.inverted h2 {color:#000000;}
+body.inverted #start h1 {color:#ddd;text-shadow:0 1px 0 #111;}
+body.inverted #bio img {/*border:1px solid white;box-shadow:0px 0px 2px #000;*/}
+body.inverted a {color:#111BB1;}
+body.inverted img {/*background-color: white;*/}
+
+.search{
+width:90px;
+height:17px;
+float:right;
+}
+
+.genre{
+float:left
+}
+
+.tips{
+text-align:center;
+color:black;
+margin-bottom:10px;
+}
+
+img{
+cursor:pointer;
+
+}

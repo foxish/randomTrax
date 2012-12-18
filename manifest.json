@@ -1,0 +1,17 @@
+{
+  "name": "RandomTrax",
+  "version": "1.5",
+  "manifest_version": 2,
+  "description": "RandomTrax",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+	"http://*.soundcloud.com/",
+	"background"
+  ],
+  "background": {
+    "page": "bg.html"
+  }
+}
