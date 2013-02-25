@@ -1,4 +1,4 @@
-randomTrax (https://chrome.google.com/webstore/detail/randomtrax/ldpbfdbophioodnhdiolfnlneppmdngc)
+####RandomTrax [(Link to Chrome Web-store)](https://chrome.google.com/webstore/detail/randomtrax/ldpbfdbophioodnhdiolfnlneppmdngc)
 ==========
 
 Chrome extension to play tracks from SoundCloud, using the API 
@@ -8,4 +8,4 @@ Straightforward.
 
 
 Someday:
- - Sources should be categorized in js/ css/ and images/ folders.
+ - Sources should be categorized in js/ css/ and images/ folders. (Too lazy)
